@@ -19,7 +19,7 @@ body {
   background: var(--background) none repeat scroll 0% 0%;
 }
 
-svg {
+.logo {
   display: flex;
   fill: var(--main);
   height: 75%;
