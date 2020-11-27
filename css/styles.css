@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+  --background: #48038c;
+  --main: #f2059f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: var(--background) none repeat scroll 0% 0%;
+}
+
+svg {
+  display: flex;
+  fill: var(--main);
+  height: 75%;
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
