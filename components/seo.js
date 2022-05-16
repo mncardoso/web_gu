@@ -49,7 +49,7 @@ export let SEO = () => {
 			<link rel="apple-touch-icon" sizes="72x72" href={Meta.apple_72} />
 			<link rel="apple-touch-icon" sizes="60x60" href={Meta.apple_60} />
 			<link rel="apple-touch-icon" sizes="57x57" href={Meta.apple_57} />
-			<link rel="mask-icon" href={Meta.safari_pinned} color={Meta.theme} />
+			<link rel="mask-icon" href={Meta.safari_pinned} color="#f2059f" />
 
 			{/* Chrome Icons */}
 			<link
