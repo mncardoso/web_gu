@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+:root {
+	/* Colors */
+	--color-foreground: hsl(0, 0%, 90%);
+	--color-background: hsl(270 96% 28%);
+	--color-background-alpha: hsla(0, 0%, 90%, 0.9);
+	--color-grey: hsla(0, 0%, 75%, 0.75);
+	--color-text: hsl(0, 0%, 0%);
+	--color-text-alt: hsl(0, 0%, 100%);
+
+	/* Margins */
+	--pading-body: 32px;
+	--margin: 1rem;
+
+	/* Fonts */
+	--font-thin: 100;
+	--font-light: 300;
+	--font-regular: 400;
+	--font-medium: 500;
+	--font-bold: 700;
+	--font-extra-bold: 800;
+	--font-black: 900;
+
+	/* Animation */
+	--translate: -12.15%;
+	--transition: all 100ms ease-out;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: var(--color-text);
+	background-color: var(--color-background);
+}
